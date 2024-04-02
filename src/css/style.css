@@ -1,0 +1,138 @@
+body {
+    background-color: var(--Eggshell);
+    font-family: "Outfit", sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.main {
+    width: 90vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.main .recipe {
+    margin-top: 20px;
+}
+
+.recipe .recipe-name {
+    font-size: 34px;
+    font-family: "Young Serif", sans-serif;
+}
+
+.recipe p {
+    margin-top: 10px;
+}
+
+.recipe .preparation {
+    width: 80vh;
+    border-radius: 20px;
+    background-color: var(--Rose-White);
+    margin-top: 30px;
+    padding: 20px 0px 20px 30px;
+}
+
+.preparation .preparation-time {
+    font-size: 18px;
+    padding-bottom: 5px;
+    color: var(--Dark-Raspberry);
+}
+
+.preparation ul{
+    padding: 5px 0px 0px 20px;
+    line-height: 30px;
+}
+
+.preparation ul li span {
+    font-weight: 600;
+}
+
+.preparation ul li::marker {
+    color: var(--Dark-Raspberry);
+}
+
+.recipe .title{
+    font-size: 24px;
+    font-family: "Young Serif", sans-serif;
+    font-weight: 400;
+    color: var(--Nutmeg);
+}
+
+.recipe .ingredients {
+    margin-top: 25px;
+}
+
+.ingredients ul {
+    padding: 15px 0px 0px 25px;
+    line-height: 30px;
+}
+
+.ingredients ul li::marker {
+    color: var(--Nutmeg);
+}
+
+hr {
+    border: 1px solid var(--Light-Grey);
+    margin-top: 25px;
+}
+
+.recipe .instructions {
+    margin-top: 25px;
+}
+
+.instructions ol {
+    padding: 15px 0px 0px 25px;
+}
+
+.instructions ol li {
+    padding-top: 10px;
+}
+
+.instructions ol li::marker {
+    color: var(--Nutmeg);
+    font-weight: 700;
+}
+
+.instructions ol li span {
+    font-weight: 600;
+}
+
+.recipe .nutrition {
+    margin-top: 30px;
+}
+
+.nutrition .table {
+    margin-top: 30px;
+    width: 520px;
+    text-align: left;
+    color: var(--Dark-Raspberry);
+}
+
+.nutrition .table tr th {
+    border-bottom: 1px solid var(--Light-Grey);
+    padding: 10px 0px 10px 20px;
+}
+
+.nutrition tr th:first-child {
+    font-weight: 400;
+}
+
+.attribution {
+    width: 600px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 80px auto;
+}
